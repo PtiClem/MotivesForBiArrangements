@@ -1,0 +1,15 @@
+
+- option "verbose" dans les fonctions (print or not).
+
+- reprendre IsTameFlat.
+
+- attention, "F"=rouge, "G"=bleu.
+
+- IsProjectiveOSBR : inutile ?
+
+- "Coloring" : attention, l'entier k est le nombre d'hyperplans bleus, pas la dimension.
+
+- message d'erreur (dans "Coloring" ?) quand on a une strate qui est à la fois une intersection d'hyperplans bleus et une intersection d'hyperplans rouges.
+On a déjà une version avec un booléan "conflict" qui va dans cette direction.
+
+- Attention, dans "Coloring" on a l'air de supposer que les hyperplans d'une couleur donnée sont linéairement indépendants... pas raisonnable !
